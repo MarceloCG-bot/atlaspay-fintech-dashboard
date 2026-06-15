@@ -1240,6 +1240,10 @@ body {
     order: 2;
   }
 
+  .xl\:mt-24{
+    margin-top: 6rem;
+  }
+
   .xl\:min-w-\[520px\]{
     min-width: 520px;
   }
