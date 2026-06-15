@@ -46,7 +46,7 @@ atlaspay-fintech-web/
 Após clonar o repositório, acesse a pasta do projeto:
 
 ```bash
-git clone https://github.com/MarceloCG-bot/atlaspay-fintech-web.git
+git clone https://github.com/MarceloCG-bot/atlaspay-fintech-dashboard.git
 cd atlaspay-fintech-web
 ```
 
