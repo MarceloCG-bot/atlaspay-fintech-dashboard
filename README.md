@@ -1,6 +1,6 @@
 # AtlasPay Fintech Web
 
-Tela estática da atividade FIAP para o projeto Fintech AtlasPay, recriando somente a **Tela 02 - Dashboard financeiro** com base no protótipo `atlaspay.pen`.
+Tela estática desenvolvida para a atividade FIAP do projeto Fintech AtlasPay, recriando somente a **Tela 02 - Dashboard financeiro** com base no protótipo UX entregue em PDF.
 
 ## Descrição
 
@@ -8,13 +8,13 @@ O projeto apresenta um dashboard financeiro responsivo com sidebar, cards de sal
 
 ## Protótipo de referência
 
-O desenvolvimento da tela foi baseado na **Tela 02 - Dashboard financeiro** do protótipo AtlasPay.
+O desenvolvimento da tela foi baseado na **Tela 02 - Dashboard financeiro** do protótipo UX do projeto AtlasPay.
 
 Arquivo de referência:
 
-[Visualizar PDF da Tela 02 - Dashboard financeiro](./docs/tela-02-dashboard-atlaspay.pdf)
+[Visualizar protótipo UX em PDF](./docs/prototipo-ux-atlaspay.pdf)
 
-Esse PDF contém a tela usada como base visual para a recriação em HTML, CSS e Tailwind CSS.
+O PDF contém as telas desenhadas para o projeto Fintech AtlasPay, e a tela recriada neste projeto web corresponde ao dashboard financeiro.
 
 ## Estrutura do projeto
 
@@ -26,7 +26,7 @@ atlaspay-fintech-web/
 ├── src/
 │   └── input.css
 ├── docs/
-│   └── tela-02-dashboard-atlaspay.pdf
+│   └── prototipo-ux-atlaspay.pdf
 ├── package.json
 ├── package-lock.json
 ├── README.md
