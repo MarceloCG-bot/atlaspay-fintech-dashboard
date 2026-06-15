@@ -1,0 +1,8 @@
+node_modules/
+.superpowers/
+.playwright-mcp/
+docs/superpowers/
+dist/
+.DS_Store
+*.log
+atlaspay.pen

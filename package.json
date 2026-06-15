@@ -1,0 +1,13 @@
+{
+  "name": "atlaspay-fintech-web",
+  "version": "1.0.0",
+  "description": "Tela Dashboard financeiro do projeto Fintech AtlasPay para atividade FIAP.",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/styles.css --content ./index.html",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/styles.css --content ./index.html --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

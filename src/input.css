@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #eef4fc;
+    color: #10172a;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-[1.875rem] bg-white p-6 shadow-[0_20px_60px_rgba(15,30,63,0.08)] ring-1 ring-slate-200/70;
+  }
+
+  .metric-card {
+    @apply card flex min-h-[9.75rem] flex-col justify-center;
+  }
+
+  .nav-link {
+    @apply rounded-[1.125rem] px-5 py-4 text-lg font-semibold text-[#b9c7df] transition-colors;
+  }
+
+  .nav-link-active {
+    @apply bg-[#22366f] text-white;
+  }
+
+  .chart-track {
+    @apply flex h-72 items-end justify-center rounded-3xl bg-[#eef3fa] p-2;
+  }
+
+  .chart-bar {
+    @apply w-full rounded-2xl;
+  }
+}
