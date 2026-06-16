@@ -638,6 +638,12 @@ body {
   padding: 0.5rem;
 }
 
+@media (min-width: 1280px){
+  .chart-track{
+    height: 22rem;
+  }
+}
+
 .chart-bar{
   width: 100%;
   border-radius: 1rem;
@@ -814,6 +820,10 @@ body {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.self-start{
+  align-self: flex-start;
 }
 
 .overflow-x-hidden{
@@ -1242,6 +1252,10 @@ body {
 
   .xl\:mt-24{
     margin-top: 6rem;
+  }
+
+  .xl\:min-h-\[34\.5rem\]{
+    min-height: 34.5rem;
   }
 
   .xl\:min-w-\[520px\]{

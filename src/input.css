@@ -40,7 +40,7 @@
   }
 
   .chart-track {
-    @apply flex h-72 items-end justify-center rounded-3xl bg-[#eef3fa] p-2;
+    @apply flex h-72 items-end justify-center rounded-3xl bg-[#eef3fa] p-2 xl:h-[22rem];
   }
 
   .chart-bar {
